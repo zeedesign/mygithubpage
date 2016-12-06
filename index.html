@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>ZeeDesign - Creative Web Designing</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes' />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" href="css/animate.min.css" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/ifvisible.min.js"></script>
+	<script>
+	ifvisible.blur(function(){
+		$('.box-wrap').css('animation-play-state','paused');
+		$('.boxleft').css('animation-play-state','paused');
+		$('.box-static').css('animation-play-state','paused');
+		$('.opage').css('animation-play-state','paused');
+		$('.zeesoon').css('animation-play-state','paused');
+		$('.zeetext').css('animation-play-state','paused');
+		$('.ftlogo').css('animation-play-state','paused');
+	});
+	ifvisible.focus(function(){
+		$('.box-wrap').css('animation-play-state','running');
+		$('.boxleft').css('animation-play-state','running');
+		$('.box-static').css('animation-play-state','running');
+		$('.opage').css('animation-play-state','running');
+		$('.zeesoon').css('animation-play-state','running');
+		$('.zeetext').css('animation-play-state','running');
+		$('.ftlogo').css('animation-play-state','running');
+	});
+	</script>
+</head>
+<body>
+<div class="main">
+<div class="box-wrap"><div class="logo"></div><div class="boxleft"></div></div>
+<div class="box-static"><div class="logo"></div></div>
+<div class="opage"></div>
+<div class="zeesoon"></div>
+<div class="work"></div>
+<div class="zeetext"><h1>Coming Soon</h1><h2>Responsive, Pixel Perfect Designs</h2><h3>Get In Touch</h3><ul><li><a><i class="fa fa-skype"></i><span>zee.design</span></a></li><li><a><i class="fa fa-twitter"></i><span>@zeedesign</span></a></li><li><a><i class="fa fa-whatsapp"></i><span>+923425101988</span></a></li><li><a><i class="fa fa-google"></i><span>zeedesign3@gmail.com</span></a></li><li><a><i class="fa fa-yahoo"></i><span>zeedesign@yahoo.com</span></a></li><li><a><i class="fa fa-envelope"></i><span>zeedesign@hotmail.com</span></a></li></ul></div>
+<div class="ftlogo animated flip"></div>
+</div>
+</body>
+</html>
